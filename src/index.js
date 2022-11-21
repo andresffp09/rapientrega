@@ -2,12 +2,36 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Delivery1 from './Delivery1';
+import Delivery2 from './Delivery2';
+import Delivery3 from './Delivery3';
+import Delivery4 from './Delivery4';
+import Login from './Login';
+import Register from './Register';
+import Profile from './Profile';
+import Tracking from './Tracking';
+import Password from './Password';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+          <Route exact path="/" element={<App/>} />
+          <Route path="/index" element={<App/>} />
+          <Route path="/Delivery1" element={<Delivery1/>} />
+          <Route path="/Delivery2" element={<Delivery2/>} />
+          <Route path="/Delivery3" element={<Delivery3/>} />
+          <Route path="/Delivery4" element={<Delivery4/>} />
+          <Route path="/Login" element={<Login/>} />
+          <Route path="/Register" element={<Register/>} />
+          <Route path="/Profile" element={<Profile/>} />
+          <Route path="/Tracking" element={<Tracking/>} />
+          <Route path="/Password" element={<Password/>} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 
