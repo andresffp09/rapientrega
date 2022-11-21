@@ -57,12 +57,12 @@ function Delivery4() {
                 <main>
                     <div class="card mb-4">
                         <div class="card-header">
-                            <img src="%PUBLIC_URL%/Imagen/Disponibilidad.jpg" width="1050px" height="250px"/>
+                            <img src="/Imagen/Disponibilidad.jpg" width="1050px" height="250px"/>
                         </div>
                     </div>
                     <figure class="text-center">
                         <blockquote class="blockquote">
-                          <p  style="background-color:rgb(35, 35, 35); color:rgb(255, 255, 255);">DESTINATARIO</p>
+                          <p  style={{backgroundColor:'rgb(35, 35, 35)', color:'rgb(255, 255, 255)'}}>DESTINATARIO</p>
                         </blockquote>
                     </figure>
                     <div class="input-group mb-3">
@@ -92,7 +92,7 @@ function Delivery4() {
                     </div>
                     <figure class="text-center">
                         <blockquote class="blockquote">
-                          <p  style="background-color:rgb(35, 35, 35); color:rgb(255, 255, 255);">UBICACIÓN</p>
+                          <p  style={{backgroundColor:'rgb(35, 35, 35)', color:'rgb(255, 255, 255)'}}>UBICACIÓN</p>
                         </blockquote>
                     </figure>
                     <div class="input-group mb-3">
@@ -104,9 +104,9 @@ function Delivery4() {
                 </main>
 
                 <div class="column" >
-                        <button class="buttonEnd">Atras</button>
-                        <button class="buttonEnd">Guardar</button>
-                        <button class="buttonEnd">Siguiente</button>            
+                        <Link to="/Delivery3" className="buttonEnd">Atras</Link>
+                        <button className="buttonEnd">Guardar</button>
+                        <Link to="/Tracking" className="buttonEnd">Siguiente</Link>           
                 </div>
                
                 <footer class="py-4 bg-light mt-auto">

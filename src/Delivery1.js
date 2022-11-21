@@ -57,12 +57,12 @@ function Delivery1() {
                 <main>
                     <div className="card mb-4">
                         <div className="card-header">
-                            <img src="%PUBLIC_URL%/Imagen/Top.jpg" width="1050px" height="250px"/>
+                            <img src="/Imagen/Top.jpg" className="image3" width="1050px" height="250px"/>
                         </div>
                     </div>
                     <figure className="text-center">
                         <blockquote className="blockquote">
-                        <p  style="background-color:rgb(35, 35, 35); color:rgb(255, 255, 255);">DIMENSIONES</p>
+                        <p  style={{backgroundColor:'rgb(35, 35, 35)', color:'rgb(255, 255, 255)'}}>DIMENSIONES</p>
                         </blockquote>
                     </figure>
                     <div className="input-group mb-3">
@@ -75,7 +75,7 @@ function Delivery1() {
                     </div>
                     <figure className="text-center">
                         <blockquote className="blockquote">
-                        <p  style="background-color:rgb(35, 35, 35); color:rgb(255, 255, 255);">¿ES MERCANCIA DELICADA?</p>
+                          <p  style={{backgroundColor:'rgb(35, 35, 35)', color:'rgb(255, 255, 255)'}}>¿ES MERCANCIA DELICADA?</p>
                         </blockquote>
                     </figure>
 
@@ -92,7 +92,7 @@ function Delivery1() {
 
                     <figure className="text-center">
                         <blockquote className="blockquote">
-                        <p  style="background-color:rgb(35, 35, 35); color:rgb(255, 255, 255);">PESO</p>
+                          <p  style={{backgroundColor:'rgb(35, 35, 35)', color:'rgb(255, 255, 255)'}}>PESO</p>
                         </blockquote>
                     </figure>
 
@@ -103,11 +103,11 @@ function Delivery1() {
 
                 </main>
                 <div className="column" >
-                        <button className="buttonEnd">Atras</button>
+                        <Link to="/" className="buttonEnd">Atras</Link>
                         <button className="buttonEnd">Guardar</button>
-                        <button className="buttonEnd">Siguiente</button>            
+                        <Link to="/Delivery2" className="buttonEnd">Siguiente</Link>         
                 </div>
-                    
+               
                 <footer className="py-4 bg-light mt-auto">
                     <div className="container-fluid px-4">
                         <div className="d-flex align-items-center justify-content-between small">
@@ -115,7 +115,7 @@ function Delivery1() {
                         </div>
                     </div>
                 </footer>
-            </div>
+            </div>   
         </div>
     </div>
 

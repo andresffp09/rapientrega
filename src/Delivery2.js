@@ -57,12 +57,12 @@ function Delivery2() {
                 <main>
                     <div className="card mb-4">
                         <div className="card-header">
-                            <img src="%PUBLIC_URL%/Imagen/Disponibilidad.jpg" width="1050px" height="250px"/>
+                            <img src="/Imagen/Disponibilidad.jpg" width="1050px" height="250px"/>
                         </div>
                     </div>
                     <figure className="text-center">
                         <blockquote className="blockquote">
-                          <p  style="background-color:rgb(35, 35, 35); color:rgb(255, 255, 255);">DISPONIBILIDAD</p>
+                          <p  style={{backgroundColor:'rgb(35, 35, 35)', color:'rgb(255, 255, 255)'}}>DISPONIBILIDAD</p>
                         </blockquote>
                     </figure>
                     <div className="input-group mb-3">
@@ -75,7 +75,7 @@ function Delivery2() {
                     </div>
                     <figure className="text-center">
                         <blockquote className="blockquote">
-                          <p  style="background-color:rgb(35, 35, 35); color:rgb(255, 255, 255);">FRANJA HORARIA</p>
+                          <p  style={{backgroundColor:'rgb(35, 35, 35)', color:'rgb(255, 255, 255)'}}>FRANJA HORARIA</p>
                         </blockquote>
                     </figure>
                     <div className="input-group mb-3">
@@ -86,9 +86,9 @@ function Delivery2() {
                     </div>
                 </main>
                 <div className="column" >
-                        <button className="buttonEnd">Atras</button>
+                        <Link to="/Delivery1" className="buttonEnd">Atras</Link>
                         <button className="buttonEnd">Guardar</button>
-                        <button className="buttonEnd">Siguiente</button>            
+                        <Link to="/Delivery3" className="buttonEnd">Siguiente</Link>          
                 </div>
                
                 <footer className="py-4 bg-light mt-auto">

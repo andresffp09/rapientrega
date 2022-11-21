@@ -26,7 +26,7 @@ function Login() {
                                                 <label for="inputPassword">Contraseña</label>
                                             </div>
                                             <div class="form-floating mb-3">
-                                                <Link to="/" class="btn btn-primary">Ingresar</Link>
+                                                <Link to="/" className="btn btn-primary">Ingresar</Link>
                                                 {/*<!--<a class="btn btn-primary" href="index.html">Ingresar</a>-->*/}
                                             </div>
                                             <div class="form-check mb-3">
@@ -34,7 +34,7 @@ function Login() {
                                                 <label class="form-check-label" for="inputRememberPassword">Recordar contraseña</label>
                                             </div>
                                             <div class="d-flex align-items-center justify-content-between mt-4 mb-">
-                                                <a class="small" href="password.html">¿Olvido la contraseña?</a>
+                                                <Link to="/Password" class="small">¿Olvido la contraseña?</Link>
                                             </div>
                                         </form>
                                     </div>
