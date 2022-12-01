@@ -1,5 +1,6 @@
 import './App.css';
 import {Link} from "react-router-dom";
+import { Fragment } from 'react';
 
 function Delivery2() {
   return (
