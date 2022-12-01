@@ -1,9 +1,10 @@
 import './App.css';
 import {Link} from "react-router-dom";
+import { Fragment } from 'react';
 
 function Login() {
   return (
-    <div>
+    <Fragment>
         <div id="layoutAuthentication">
             <div id="layoutAuthentication_content">
                 <main>
@@ -66,7 +67,7 @@ function Login() {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="%PUBLIC_URL%/js/scripts.js"></script>
 
-    </div>
+    </Fragment>
   );
 }
 

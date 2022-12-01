@@ -1,9 +1,10 @@
 import './App.css';
 import {Link} from "react-router-dom";
+import { Fragment } from 'react';
 
 function Delivery1() {
   return (
-    <div>
+    <Fragment>
         <nav className="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             {/*<!-- Navbar Brand-->*/}
             <Link to="/index" className="navbar-brand ps-3">RAPI ENTREGA</Link>
@@ -117,7 +118,7 @@ function Delivery1() {
                 </footer>
             </div>   
         </div>
-    </div>
+    </Fragment>
 
 
   );

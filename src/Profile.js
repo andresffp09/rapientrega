@@ -52,7 +52,7 @@ function Profile() {
                                                 </div>
                                             </div>
                                             <div className="mt-4 mb-0">
-                                                <div className="d-grid"><a className="btn btn-primary btn-block" href="login.html">Guardar</a></div>
+                                                <div className="d-grid"><Link to="/" className="btn btn-primary btn-block">Guardar</Link></div>
                                             </div>
                                         </form>
                                     </div>

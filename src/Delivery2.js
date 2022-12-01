@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 function Delivery2() {
   return (
-    <div>
+    <Fragment>
         <nav className="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             {/*<!-- Navbar Brand-->*/}
             <Link to="/index" className="navbar-brand ps-3">RAPI ENTREGA</Link>
@@ -101,7 +101,7 @@ function Delivery2() {
             </div>
         
         </div>
-    </div>
+    </Fragment>
 
 
   );

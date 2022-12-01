@@ -19,13 +19,13 @@ function Password() {
                                                 <label for="inputEmail"> Correo electronico</label>
                                             </div>
                                             <div className="d-flex align-items-center justify-content-between mt-4 mb-0">
-                                                <a className="small" href="login.html">Volver al login</a>
+                                                <Link to="/Login" className="small">Volver al login</Link>
                                                 <Link to="/Password" className="btn btn-primary">Restablecer Contraseña</Link>
                                             </div>
                                         </form>
                                     </div>
                                     <div className="card-footer text-center py-3">
-                                        <div className="small"><a>¿No tienes una cuenta? </a><a href="register.html">Registrate</a></div>
+                                        <div className="small"><a>¿No tienes una cuenta? </a><Link to ="/Register">Registrate</Link></div>
                                     </div>
                                 </div>
                             </div>
